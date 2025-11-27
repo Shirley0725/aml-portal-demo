@@ -30,7 +30,7 @@ jobs:
           app_location: "/vitejs-vite-tpw38grl" 
           api_location: ""
           output_location: "dist" 
-          app_build_command: "npm install && npm run build"  # ⬅️ 加入這行關鍵指令！
+          app_build_command: "npm install && npm run build"
           ###### End of Repository/Build Configurations ######
 
   close_pull_request_job:
@@ -44,5 +44,6 @@ jobs:
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_ORANGE_MUSHROOM_0BB921400 }}
           action: "close"
+
 
 
